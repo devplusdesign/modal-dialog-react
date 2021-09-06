@@ -7,7 +7,6 @@ class Modal extends React.Component {
     }
 
     componentDidUpdate() {
-        console.log('hello');
         if (this.props.isVisible === true) {
             this.modal.current.focus();
         }
